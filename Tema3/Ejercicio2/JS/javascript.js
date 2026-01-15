@@ -49,7 +49,7 @@ document.getElementById("updatePage").addEventListener("click", () => {
 
 productImg = [];
 productDesc = ["Muerte por chocolate amai que rico", "Galletita oreo amai que rico", "Chips Ahoy con pepitas y todo amai que rico", "¿¡Heladito de limon en un limon!?"];
-productName = ["Muerte por chocolate","Oreo","Chips Ahoy","Lemonchelo"]
+productName = ["Muerte por chocolate", "Oreo", "Chips Ahoy", "Lemonchelo"]
 for (i = 0; i < 4; i++) {
     productImg[i] = "../RES/" + i + ".jpg"
 }
@@ -62,7 +62,7 @@ document.getElementById("carrusel").addEventListener("click", () => {
     productUpdater(img);
 })
 
-function imgCada5(){
+function imgCada5() {
     if (img < productImg.length - 1) {
         img++;
     } else { img = 0; }
@@ -80,16 +80,18 @@ function productUpdater(product) {
 }
 
 productInput = "";
+productPlaceholder = "";
 document.getElementById("producto").addEventListener("keyup", () => { //Actualiza la variable productoName y se la asigna al p que sustituye el contenido
     productInput = document.getElementById("producto").value;
     document.getElementById("currentText").innerHTML = productInput;
+    placeholder();
 
 })
 document.getElementById("productoSubmit").addEventListener("click", () => { // cuando se submittea se comprueba el contenido y se llama a productUpdater con el id de producto correspondiente.
     switch (productInput) {
         case "Muerte por chocolate":
             productUpdater(0);
-            
+
             return;
         case "Oreo":
             productUpdater(1);
@@ -106,10 +108,15 @@ document.getElementById("productoSubmit").addEventListener("click", () => { // c
 })
 
 function placeholder() {
-    for (i = 0 ; i < productName.length ; i++){
-        if ( productName[i].star(productInput.star) )
-
-            productName[i].star(productInput.star)
+    for (i = 0; i < productName.length; i++) {
+        if (productName[i].toLowerCase().startsWith(productInput.toLowerCase())) {
+            if (productInput = "") {
+                document.getElementById("placeholder").innerHTML = "aa";
+            } else {
+                document.getElementById("placeholder").innerHTML = productName[i];
+            }
+            return;
+        }
     }
 }
 
