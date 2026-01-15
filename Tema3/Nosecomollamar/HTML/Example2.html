@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+    <select onchange="mostrarOpcion(this.value)">
+        <option value="">Selecciona un color</option>
+        <option value="Rojo">Rojo</option>
+        <option value="Azul">Azul</option>
+        <option value="Verde">Verde</option>
+    </select>
+    
+    <script>
+    function mostrarOpcion(color) {
+        if(color != "") alert("Has seleccionado: "+color);
+    }
+    </script>
+    
+</body>
+
+</html>
+
+<script>
+    let img = document.createElement('img');
+    img.style.position = "absolute";
+    img.src = "../RES/PJ.png"
+    document.body.appendChild(img)
+    img.width = 100;
+
+    let posX = 0;
+    let posY = 0;
+    img.style.left = 0 + "px"
+    img.style.top = 0 + "px"
+    
+    document.addEventListener("keydown", (event) => {
+        let tecla = event.key;
+        
+        if (tecla == "w"){ posY -= 5; img.style.top = posY + "px"}
+        
+        if (tecla == "s"){ posY += 5; img.style.top = posY + "px"}
+        
+        if (tecla == "a"){ posX -= 5; img.style.left = posX + "px"}
+        
+        if (tecla == "d"){ posX += 5; img.style.left = posX + "px"}
+
+    })
+</script>

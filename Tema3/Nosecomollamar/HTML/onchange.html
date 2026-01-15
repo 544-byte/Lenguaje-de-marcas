@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select onchange="mostrarOpcion(this.value)">
+        <option value="">Selecciona un color</option>
+        <option value="red">Rojo</option>
+        <option value="blue">Azul</option>
+        <option value="green">Verde</option>
+    </select>
+</body>
+</html>
+<script>
+    function mostrarOpcion(color) {
+        if(color != "") alert("Has seleccionado: "+color);
+        document.body.style.backgroundColor = color;
+    }
+</script>

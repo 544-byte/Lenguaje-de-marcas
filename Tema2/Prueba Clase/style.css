@@ -1,0 +1,60 @@
+html,body{height: 100%;}
+
+#HeaderContenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 10%;
+    margin: 5% 5% 0 5%;
+}
+#itemHeader1{
+    flex-basis: 15%;    
+    background-color: red;
+}
+#itemHeader2{
+    flex-basis: 85%;
+    background-color: yellow;
+}
+
+
+#MainContenedor{
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    margin: 5% 5% 0 5%;
+}
+#itemMain1{
+    flex-grow: 1;
+    background-color: green;
+}
+#itemMain2{
+    flex-grow: 1;
+    background-color: blue;
+}
+
+
+#navContenedor{
+    display: flex;
+    margin: 5% 5% 0 5%;
+    flex-direction: row;
+    height: 10%;
+}
+#navContenedor > div{
+    flex-grow: 1;
+    border: solid black 1px;
+}
+
+
+#footerContenedor{
+    display: flex;
+    margin: 5%;
+    height: 10%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+#footerContenedor > div {
+    background-color: white;
+    flex-basis: 33%;
+    height: 75%;
+}

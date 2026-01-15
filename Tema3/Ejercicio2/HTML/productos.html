@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Ejercicio2</title>
+	<link id="css" rel="stylesheet" href="../CSS/styles.css">
+	<script src="../JS/javascript.js" defer></script>
+</head>
+
+<body>
+	<div id="oscuridad"></div>
+	<header>
+		<img src="../RES/logo.gif" alt="LOGO" id="logo">
+		<h1 id="title">Pastelería Dulce</h1>
+		<img src="../RES/logo.gif" alt="LOGO" id="logo">
+		<button id="darkMode"><img src="../RES/lightMode.png" alt="ModoOscuro"></button>
+	</header>
+
+	<nav>
+		<p><a href="index.html">Inicio</a></p>
+		<p><a href="productos.html">Productos</a></p>
+		<p><a href="#footer">Contacto</a></p>
+	</nav>
+
+	<main class="productos">
+		<img id="carrusel" src="../RES/0.jpg" alt="imágen">
+		<p id="productDesc">Muerte por chocolate amai que rico</p>
+		<input type="text" id="producto">
+		<p class="input" id="placeholder"></p>
+		<p class="input" id="currentText">I</p>
+		<button type="button" id="productoSubmit">Seleccionar</button>
+
+	</main>
+
+	<footer>
+		<form>
+			<input id="titleUpdater" type="text">
+			<select name="colorSelector" id="colorUpdater">
+				<option value="default">default</option>
+				<option value="red">rojo</option>
+				<option value="green">verde</option>
+				<option value="blue">azul</option>
+			</select>
+			<button type="button" id="updatePage">Aplicar cambios</button>
+		</form>
+	</footer>
+
+</body>
+
+</html>
+
+<!--
+Continuación al ejercicio 2.
+Crear un nuevo documento HTML en que sea una galería de imágenes.
+(esta nueva página debe de estar enlazada con la página anterior mediante el enlace de "productos" del menú de navegación
+Dicha página debe contener los siguientes elementos:
+
+
+1. Estructura general (HTML + Flexbox)
+ 		a) Encabezado (header)
+		Debe incluir:
+			Un título (nombre de la pastelería).
+			Una imagen representativa (logo o imagen de un pastel).
+
+		b) Menú horizontal
+			Debajo del encabezado debe haber un menú horizontal con al menos 3 elementos, por ejemplo:
+				Inicio | Productos | Contacto
+
+			El menú debe estar alineado usando Flexbox.
+
+		c) Contenedor principal
+			Una imagen centrada 
+			Una descripción de la imagen debajo de esta (párrafo).
+
+
+
+2. Requisitos de JavaScript
+	El JavaScript debe manejar eventos de click sobre la imagen de manera que:
+		a) Se cambie a otra imagen
+		c) Cambie la descripción por la de la imagen que se muestra
+
+	Cada vez que el usuario haga click sobre la imagen esta debe de cambiar por otra junto con su descripción,
+    este cambio ha de permitir ciclos de cambio, es decir, cuando se haga click sobre la última imagen a mostrar deberá mostrarse de nuevo la primera.
+-->

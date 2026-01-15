@@ -1,0 +1,51 @@
+<!-- 
+Crear un menú desplegable donde aparezcan géneros de películas
+y dentro de cada género, aparezca un listado de películas, y cada
+uno sea un enlace a la página de wikipedia de dicha pelicula
+3 generos y en cada genero 3 peliculas
+Ampliar el contenido anterior añadiendo un título a la página
+que se llame Listado de peliculas seguido de una imagen de un cine de 200x200px
+y abajo una descripción.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <h1>Listado de peliculas</h1>
+    <img src="https://vorlane.com/wp-content/uploads/2024/11/1Home-theater-with-soft-lighting-for-immersive-viewing.webp" width="200px" alt="">
+    <h3>Esto es un listado de películas</h3>
+    <details>
+        <summary>Películas</summary>
+        <ul>
+            <details>
+            <summary>Terror</summary>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Sinister">Sinister</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Get_Out">Get Out</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Barbarian_(pel%C3%ADcula)">Barbarian</a></li>
+            </ul>
+            </details>
+            <details>
+            <summary>Comedia</summary>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/The_Hangover">The Hangover</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Airplane!">Airplane!</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/The_Naked_Gun:_From_the_Files_of_Police_Squad!">The Naked Gun: From the Files of Police Squad!</a></li>
+            </ul>
+            </details>
+            <details>
+            <summary>Stop Motion</summary>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Coraline_(pel%C3%ADcula)">Coraline</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Corpse_Bride">Corpse Bride</a></li>
+                <li><a href="https://es.wikipedia.org/wiki/Chicken_Run">Chicken run</a></li>
+            </ul>
+            </details>
+        </ul>
+    </details>
+</body>
+</html>

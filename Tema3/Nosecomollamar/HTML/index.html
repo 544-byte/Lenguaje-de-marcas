@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Sitio 1</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <p id="p"></p>
+    <button onclick="saludar()">Haz click</button>
+    <script>
+        function saludar(){
+            alert("¡Que passssa balaa!");
+        }
+    </script>
+
+
+    <button id="miBoton"> Click aquí</button>
+    <script>
+        document.getElementById("miBoton").onclick = function (){
+            alert("Has hecho click campeón");
+        }
+    </script>
+
+
+    <button onclick="cambiaColor()">Cambia Color</button>
+    <script>
+        function cambiaColor(){
+            document.body.style.backgroundColor="lightblue";
+        }
+    </script>
+
+    <input type="text" onkeydown="mostrarTecla(event)" placeholder="Escribe algo">
+    <script>
+        function mostrarTecla(event){
+            console.log("Tecla presionada", event.key)
+        }
+    </script>
+
+    
+    
+</body>
+</html>
+
+<script>
+    document.getElementById("p").innerHTML = "Hola JavaScript"
+    document.write("<h1>Hola JavaScript</h1>")
+    alert("Hola JavaScript")
+    console.log("Ejemplo de log")
+</script>

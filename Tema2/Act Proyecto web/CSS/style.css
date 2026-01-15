@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+}
+header h1 {
+    color: #B22222;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    font-weight: bold;
+    color: #9CF;
+}
+.main td{
+    width: 50%;
+    height: 700px;
+    
+    
+}
+table{
+    width: 75%;
+    margin: auto;    
+}
+.Testimonios td {
+    background-color: #aaa;
+    padding: 0;
+    width: 50%;
+}
+.Testimonios td div img{
+    width: 50px;
+    height: 50px;
+}
+.usrName{
+    display: inline;
+    font-size: 20px;
+    vertical-align: 50%;
+}
+.desc{
+    padding-left: 10px;
+    padding-right: 10px;
+}
