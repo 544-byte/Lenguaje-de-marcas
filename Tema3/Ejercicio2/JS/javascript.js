@@ -81,6 +81,8 @@ function productUpdater(product) {
 
 productInput = "";
 productPlaceholder = "";
+
+
 document.getElementById("producto").addEventListener("keyup", () => { //Actualiza la variable productoName y se la asigna al p que sustituye el contenido
     productInput = document.getElementById("producto").value;
     document.getElementById("currentText").innerHTML = productInput;
@@ -119,17 +121,3 @@ function placeholder() {
         }
     }
 }
-
-/*Continuación del ejercicio 4.
-
-Crear una nueva funcionalidad a la página web que permita mostrar la imagen y la descripción de un producto introducido por un input de tipo texto.
-Además se pide que conforme se vaya escribiendo el nombre muestre en su placeholder la palabra completa sugerida, ejemplo:
-
-input : m    -> manzana
-
-input : mi   -> miel
-
-input : mil  -> milhojas
-
-
-Como se aprecia en el anterior ejemplo solo se muestra una única sugerencia (la primera que encuentre coincidente)*/

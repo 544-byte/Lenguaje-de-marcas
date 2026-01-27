@@ -1,0 +1,149 @@
+{
+    "Dias":[
+        {
+            "nombre" : "Lunes",
+            "horas" : [
+                {
+                    "valor" : "10:15-11:15",
+                    "asignatura" : "Latin4"
+                },
+                {
+                    "valor" : "11:15-11:45",
+                    "asignatura" : "Recreo"
+                },
+                {
+                    "valor" : "11:45-12:45",
+                    "asignatura" : "Refuerzo"
+                },
+                {
+                    "valor" : "12:45-13:45",
+                    "asignatura" : "Japones5"
+                },
+                {
+                    "valor" : "13:45-14:45",
+                    "asignatura" : "Cartografia Interactiva"
+                }
+            ]
+        },
+        {
+            "nombre" : "Martes",
+            "horas" : [
+                {
+                    "valor" : "8:15-9:15",
+                    "asignatura" : "Manualidades1"
+                },
+                {
+                    "valor" : "9:15-10:15",
+                    "asignatura" : "Latin4"
+                },
+                {
+                    "valor" : "10:15-11:15",
+                    "asignatura" : "Robotica Uni"
+                },
+                {
+                    "valor" : "11:15-11:45",
+                    "asignatura" : "Recreo"
+                },
+                {
+                    "valor" : "11:45-12:45",
+                    "asignatura" : "Arte3"
+                },
+                {
+                    "valor" : "12:45-13:45",
+                    "asignatura" : "Ingenieria Espacial"
+                },
+                {
+                    "valor" : "13:45-14:45",
+                    "asignatura" : "Japones5"
+                }
+            ]
+        },
+        {
+            "nombre" : "Miercoles",
+            "horas" : [
+                {
+                    "valor" : "8:15-9:15",
+                    "asignatura" : "Manualidades1"
+                },
+                {
+                    "valor" : "9:15-10:15",
+                    "asignatura" : "Latin4"
+                },
+                {
+                    "valor" : "10:15-11:15",
+                    "asignatura" : "Robotica Uni"
+                },
+                {
+                    "valor" : "11:15-11:45",
+                    "asignatura" : "Recreo"
+                },
+                {
+                    "valor" : "11:45-12:45",
+                    "asignatura" : "Robotica Uni"
+                },
+                {
+                    "valor" : "12:45-13:45",
+                    "asignatura" : "Japones5"
+                }
+            ]
+        },
+        {
+            "nombre" : "Jueves",
+            "horas" : [
+                {
+                    "valor" : "8:15-9:15",
+                    "asignatura" : "Manualidades1"
+                },
+                {
+                    "valor" : "9:15-10:15",
+                    "asignatura" : "Latin4"
+                },
+                {
+                    "valor" : "10:15-11:15",
+                    "asignatura" : "Robotica Uni"
+                },
+                {
+                    "valor" : "11:15-11:45",
+                    "asignatura" : "Recreo"
+                },
+                {
+                    "valor" : "11:45-12:45",
+                    "asignatura" : "Arte3"
+                },
+                {
+                    "valor" : "12:45-13:45",
+                    "asignatura" : "Taller Bachillerato"
+                }
+            ]
+        },
+        {
+            "nombre" : "Viernes",
+            "horas" : [
+                {
+                    "valor" : "8:15-9:15",
+                    "asignatura" : "Arte3"
+                },
+                {
+                    "valor" : "9:15-10:15",
+                    "asignatura" : "Tutoria4"
+                },
+                {
+                    "valor" : "10:15-11:15",
+                    "asignatura" : "Ingenieria Espacial"
+                },
+                {
+                    "valor" : "11:15-11:45",
+                    "asignatura" : "Recreo"
+                },
+                {
+                    "valor" : "11:45-12:45",
+                    "asignatura" : "Ingenieria Espacial"
+                },
+                {
+                    "valor" : "12:45-13:45",
+                    "asignatura" : "Modelismio"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+<horario>
+    <dia>
+        <nombre>Lunes</nombre>
+        <hora>
+            <valor>10:15-11:15</valor>
+            <asignatura>Latin4</asignatura>
+        </hora>
+        <hora>
+            <valor>11:15-11:45</valor>
+            <asignatura>Recreo</asignatura>
+        </hora>
+        <hora>
+            <valor>11:45-12:45</valor>
+            <asignatura>Refuerzo</asignatura>
+        </hora>
+        <hora>
+            <valor>12:45-13:45</valor>
+            <asignatura>Japones5</asignatura>
+        </hora>
+        <hora>
+            <valor>13:45-12:45</valor>
+            <asignatura>Cartografía Interactiva</asignatura>
+        </hora>
+    </dia>
+    <dia>
+        <nombre>Martes</nombre>
+        <hora>
+            <valor>8:15-9:15</valor>
+            <asignatura>Manualidades 1</asignatura>
+        </hora>
+        <hora>
+            <valor>9:15-10:15</valor>
+            <asignatura>Latin4</asignatura>
+        </hora>
+        <hora>
+            <valor>10:15-11:15</valor>
+            <asignatura>Robotica uni</asignatura>
+        </hora>
+        <hora>
+            <valor>11:15-11:45</valor>
+            <asignatura>Recreo</asignatura>
+        </hora>
+        <hora>
+            <valor>11:45-12:45</valor>
+            <asignatura>Arte3</asignatura>
+        </hora>
+        <hora>
+            <valor>12:45-13:45</valor>
+            <asignatura>Ingenieria Espacial</asignatura>
+        </hora>
+        <hora>
+            <valor>13:45-12:45</valor>
+            <asignatura>Japones5</asignatura>
+        </hora>
+    </dia>
+    <dia>
+        <nombre>Miercoles</nombre>
+        <hora>
+            <valor>8:15-9:15</valor>
+            <asignatura>Manualidades 1</asignatura>
+        </hora>
+        <hora>
+            <valor>9:15-10:15</valor>
+            <asignatura>Latin4</asignatura>
+        </hora>
+        <hora>
+            <valor>10:15-11:15</valor>
+            <asignatura>Arte3</asignatura>
+        </hora>
+        <hora>
+            <valor>11:15-11:45</valor>
+            <asignatura>Recreo</asignatura>
+        </hora>
+        <hora>
+            <valor>11:45-12:45</valor>
+            <asignatura>Robotica uni</asignatura>
+        </hora>
+        <hora>
+            <valor>12:45-13:45</valor>
+            <asignatura>Japones5</asignatura>
+        </hora>
+    </dia>
+    <dia>
+        <nombre>Jueves</nombre>
+        <hora>
+            <valor>8:15-9:15</valor>
+            <asignatura>Manualidades 1</asignatura>
+        </hora>
+        <hora>
+            <valor>9:15-10:15</valor>
+            <asignatura>Latin4</asignatura>
+        </hora>
+        <hora>
+            <valor>10:15-11:15</valor>
+            <asignatura>Robotica uni</asignatura>
+        </hora>
+        <hora>
+            <valor>11:15-11:45</valor>
+            <asignatura>Recreo</asignatura>
+        </hora>
+        <hora>
+            <valor>11:45-12:45</valor>
+            <asignatura>Arte3</asignatura>
+        </hora>
+        <hora>
+            <valor>12:45-13:45</valor>
+            <asignatura>Taller bachillerato</asignatura>
+        </hora>
+    </dia>
+    <dia>
+        <nombre>Viernes</nombre>
+        <hora>
+            <valor>8:15-9:15</valor>
+            <asignatura>Arte3</asignatura>
+        </hora>
+        <hora>
+            <valor>9:15-10:15</valor>
+            <asignatura>Tutoria4</asignatura>
+        </hora>
+        <hora>
+            <valor>10:15-11:15</valor>
+            <asignatura>Ingenieria Espacial</asignatura>
+        </hora>
+        <hora>
+            <valor>11:15-11:45</valor>
+            <asignatura>Recreo</asignatura>
+        </hora>
+        <hora>
+            <valor>11:45-12:45</valor>
+            <asignatura>Ingenieria Espacial</asignatura>
+        </hora>
+        <hora>
+            <valor>12:45-13:45</valor>
+            <asignatura>Modelismio</asignatura>
+        </hora>
+    </dia>
+</horario>
