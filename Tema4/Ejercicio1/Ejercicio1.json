@@ -1,0 +1,85 @@
+{
+"entradas": [
+{
+    "articulo": "Canaleta",
+    "cantidad": 8,
+    "precio": "22,84",
+    "subtotal": "22,84",
+    "igic": "128,72",
+    "total": "205,56"
+},
+{
+    "articulo": "Tapa final",
+    "cantidad": 2,
+    "precio": "2,32",
+    "subtotal": "2,32",
+    "igic": "4,64",
+    "total": "6,96"
+},
+{
+    "articulo": "Roseta empotrable dobre 80x80",
+    "cantidad": 7,
+    "precio": "8,95",
+    "subtotal": "8,95",
+    "igic": "62,65",
+    "total": "71,6"
+},
+{
+    "articulo": "Conector RJ45",
+    "cantidad": 48,
+    "precio": "0,32",
+    "subtotal": "0,32",
+    "igic": "15,36",
+    "total": "11,68"
+},
+{
+    "articulo": "Cable ftp",
+    "cantidad": 1,
+    "precio": "40,38",
+    "subtotal": "40,38",
+    "igic": "40,38",
+    "total": "80,76"
+},
+{
+    "articulo": "Switch raqueable",
+    "cantidad": 1,
+    "precio": "112",
+    "subtotal": "112",
+    "igic": "112",
+    "total": "224"
+},
+{
+    "articulo": "Switch TP",
+    "cantidad": 1,
+    "precio": "13,93",
+    "subtotal": "13,93",
+    "igic": "13,93",
+    "total": "27,86"
+},
+{
+    "articulo": "Pacht panel",
+    "cantidad": 1,
+    "precio": "23",
+    "subtotal": "23",
+    "igic": "23",
+    "total": "46"
+},
+{
+    "articulo": "Sobremesa",
+    "cantidad": 25,
+    "precio": "1169",
+    "subtotal": "29225",
+    "igic": "2045,75",
+    "total": "31270,75"
+},
+{
+    "articulo": "Portatil",
+    "cantidad": 15,
+    "precio": "629",
+    "subtotal": "9435",
+    "igic": "143,2025",
+    "total": "9578,2025"
+}
+],
+"total": "41527,3725"
+}

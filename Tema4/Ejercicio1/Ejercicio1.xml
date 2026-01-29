@@ -1,0 +1,83 @@
+<factura>
+    <entrada>
+        <articulo>Canaleta</articulo>
+        <cantidad>8</cantidad>
+        <precio>22,84</precio>
+        <subtotal>22,84</subtotal>
+        <igic>128,72</igic>
+        <total>205,56</total>
+    </entrada>
+    <entrada>
+        <articulo>Tapa final</articulo>
+        <cantidad>2</cantidad>
+        <precio>2,32</precio>
+        <subtotal>2,32</subtotal>
+        <igic>4,64</igic>
+        <total>6,96</total>
+    </entrada>
+    <entrada>
+        <articulo>Roseta empotrable dobre 80x80</articulo>
+        <cantidad>7</cantidad>
+        <precio>8,95</precio>
+        <subtotal>8,95</subtotal>
+        <igic>62,65</igic>
+        <total>71,6</total>
+    </entrada>
+    <entrada>
+        <articulo>Conector RJ45</articulo>
+        <cantidad>48</cantidad>
+        <precio>0,32</precio>
+        <subtotal>0,32</subtotal>
+        <igic>15,36</igic>
+        <total>11,68</total>
+    </entrada>
+    <entrada>
+        <articulo>Cable ftp</articulo>
+        <cantidad>1</cantidad>
+        <precio>40,38</precio>
+        <subtotal>40,38</subtotal>
+        <igic>40,38</igic>
+        <total>80,76</total>
+    </entrada>
+    <entrada>
+        <articulo>Switch raqueable</articulo>
+        <cantidad>1</cantidad>
+        <precio>112</precio>
+        <subtotal>112</subtotal>
+        <igic>112</igic>
+        <total>224</total>
+    </entrada>
+    <entrada>
+        <articulo>Switch TP</articulo>
+        <cantidad>1</cantidad>
+        <precio>13,93</precio>
+        <subtotal>13,93</subtotal>
+        <igic>13,93</igic>
+        <total>27,86</total>
+    </entrada>
+    <entrada>
+        <articulo>Pacht panel</articulo>
+        <cantidad>1</cantidad>
+        <precio>23</precio>
+        <subtotal>23</subtotal>
+        <igic>23</igic>
+        <total>46</total>
+    </entrada>
+    <entrada>
+        <articulo>Sobremesa</articulo>
+        <cantidad>25</cantidad>
+        <precio>1169</precio>
+        <subtotal>29225</subtotal>
+        <igic>2045,75</igic>
+        <total>31270,75</total>
+    </entrada>
+    <entrada>
+        <articulo>Portatil</articulo>
+        <cantidad>15</cantidad>
+        <precio>629</precio>
+        <subtotal>9435</subtotal>
+        <igic>143,2025</igic>
+        <total>9578,2025</total>
+    </entrada>
+    <total>41527,3725</total>
+</factura>
