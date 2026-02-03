@@ -1,0 +1,56 @@
+<cuentas>
+    <cuenta>
+        <cuentaID>600</cuentaID>
+        <cuentaNombre>Compras de mercaderías</cuentaNombre>
+        <contenido>
+            <fecha>15/09/2024</fecha>
+            <concepto>Compra de mochila</concepto>
+            <debe>60</debe>
+            <haber></haber>
+            <saldo>60</saldo>
+        </contenido>
+    </cuenta>
+    <cuenta>
+        <cuentaID>400</cuentaID>
+        <cuentaNombre>Proveedores</cuentaNombre>
+        <contenido>
+            <fecha>15/09/2024</fecha>
+            <concepto>Compra de mochila</concepto>
+            <debe></debe>
+            <haber>72.60</haber>
+            <saldo>72.60</saldo>
+        </contenido>
+        <contenido>
+            <fecha>30/10/2024</fecha>
+            <concepto>Pago al proveedor</concepto>
+            <debe>72.60</debe>
+            <haber></haber>
+            <saldo>0</saldo>
+        </contenido>
+    </cuenta>
+    <cuenta>
+        <cuentaID>572</cuentaID>
+        <cuentaNombre>Bancos</cuentaNombre>
+        <contenido>
+            <fecha>15/09/2024</fecha>
+            <concepto>Cobro al cliente</concepto>
+            <debe>96.80</debe>
+            <haber></haber>
+            <saldo>96.80</saldo>
+        </contenido>
+        <contenido>
+            <fecha>16/09/2024</fecha>
+            <concepto>Pago al transporte</concepto>
+            <debe></debe>
+            <haber>6.05</haber>
+            <saldo>90.75</saldo>
+        </contenido>
+        <contenido>
+            <fecha>30/10/2024</fecha>
+            <concepto>Pago al proveedor</concepto>
+            <debe></debe>
+            <haber>72.60</haber>
+            <saldo>18.15</saldo>
+        </contenido>
+    </cuenta>
+</cuentas>

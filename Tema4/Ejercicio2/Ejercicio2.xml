@@ -1,0 +1,59 @@
+<OrdenCompra>
+    <nombreEmpresa>Empresa Falsa A</nombreEmpresa>
+    <datosOrden>
+        <fecha>15/01/2020</fecha>
+        <nOrden>OC 00005</nOrden>
+    </datosOrden>
+    <direccion></direccion>
+    <telefono></telefono>
+    <e-mail></e-mail>
+    <sitioWeb></sitioWeb>
+    <datosEnvio>
+        <vendedor>
+            <nombre>Empresa Falsa B</nombre>
+            <departamento>Departamento de Ventas</departamento>
+            <direccion></direccion>
+            <telefono></telefono>
+            <e-mail></e-mail>
+        </vendedor>
+        <enviarA>
+            <cliente>Cliente Falso</cliente>
+            <empresa>Empresa Falsa A</empresa>
+            <direccion></direccion>
+            <telefono></telefono>
+            <e-mail></e-mail>
+        </enviarA>
+        <enviadoMediante>MRW</enviadoMediante>
+        <F.O.B.>Dirección de empresa Falsa A</F.O.B.>
+        <condicionesEnvio>Horario de entrega de 8 a.m. a 15 p.m.</condicionesEnvio>
+    </datosEnvio>
+    <ficha>
+        <articulo>
+            <articuloID>78958</articuloID>
+            <desc>Producto X</desc>
+            <cantidad>2</cantidad>
+            <PrecioPorUnidad>10</PrecioPorUnidad>
+            <Total>20</Total>
+        </articulo>
+        <articulo>
+            <articuloID>14455</articuloID>
+            <desc>Producto T</desc>
+            <cantidad>5</cantidad>
+            <PrecioPorUnidad>50</PrecioPorUnidad>
+            <Total>250</Total>
+        </articulo>
+        <articulo>
+            <articuloID>66888</articuloID>
+            <desc>Producto H</desc>
+            <cantidad>1</cantidad>
+            <PrecioPorUnidad>200</PrecioPorUnidad>
+            <Total>200</Total>
+        </articulo>
+        <subtotal>570</subtotal>
+        <21percentIVA>119.70</21percentIVA>
+        <envio>0</envio>
+        <otro>0</otro>
+        <total>689.70</total>
+    </ficha>
+    <tlfContacto></tlfContacto>
+</OrdenCompra>

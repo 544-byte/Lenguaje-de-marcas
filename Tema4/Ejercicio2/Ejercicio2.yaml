@@ -1,0 +1,47 @@
+nombre empresa: Empresa Falsa A
+Datos Orden: 
+  Fecha: 15/01/2020
+  Nº Orden: OC 00005
+Dirección: null
+Teléfono: null
+E-mail: null
+Sitio Web: null
+Datos envío: 
+  Vendedor: 
+      Nombre: Empresa Falsa B
+      Departamento: Departamento de Ventas
+      Dirección: null
+      Teléfono: null
+      E-mail: null
+  Enviar a: 
+      Cliente: Cliente Falso
+      Empresa: Empresa Falsa A
+      Dirección: null
+      Teléfono: null
+      E-mail: null
+  Enviado mediante: MRW
+  F.O.B.: Dirección de empresa Falsa A
+  Condiciones de Envío: Horario de entrega de 8 a.m. a 15 p.m.
+Ficha: 
+  Articulos: 
+    -Artículo ID: 78958
+    Descripción: Producto X
+    Cantidad: 2
+    P/U: 10
+    Total: 20
+    -Artículo ID: 14455
+    Descripción: Producto T
+    Cantidad: 5
+    P/U: 50
+    Total: 250
+    -Artículo ID: 66888
+    Descripción: Producto H
+    Cantidad: 1
+    P/U: 200
+    Total: 200
+  Subtotal: 570
+  21%IVA: 119.70
+  Envío: 0
+  Otro: 0
+  Total: 689.70
+Tlf contacto: null

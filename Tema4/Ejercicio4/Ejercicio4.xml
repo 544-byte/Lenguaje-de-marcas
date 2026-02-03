@@ -1,0 +1,43 @@
+<menu>
+    <seccion>
+        <nombre>DESAYUNOS Y MERIENDAS</nombre>
+        <producto>
+            <nombre>CLÁSICO</nombre>
+            <descripcion>Café con leche y croissant con mantequilla y mermelada + zumo de naranja natural</descripcion>
+            <precio>5.70</precio>
+        </producto>
+        <producto>
+            <nombre>BERCIANO</nombre>
+            <descripcion>Café con leche y rebanada de hogaza con mantequilla y mermelada + zumo de naranja natural</descripcion>
+            <precio>5.70</precio>
+        </producto>
+        <producto>
+            <nombre>MEDITERRÁNEO</nombre>
+            <descripcion>Café con leche y rebanada de hogaza con tomate, aceite y jamón serrano + zumo de naranja natural</descripcion>
+            <precio>7.30</precio>
+        </producto>
+        <producto>
+            <nombre>AMERICANO</nombre>
+            <descripcion>Café con leche, tortita con nata y chocolate o caramelo o fresa + zumo de naranja natural</descripcion>
+            <precio>7.40</precio>
+        </producto>
+    </seccion>
+    <seccion>
+        <nombre>HELADOS</nombre>
+        <producto>
+            <nombre>COPA DE HELADO</nombre>
+            <descripcion>Dos sabores a elegir, con nata y sirope de caramelo o fresa o chocolate</descripcion>
+            <precio>6.50</precio>
+        </producto>
+        <producto>
+            <nombre>BATIDO DE HELADO AL GUSTO</nombre>
+            <descripcion>Batidos de leche elaborados con helados de sabor al gusto</descripcion>
+            <precio>4.80</precio>
+        </producto>
+        <producto>
+            <nombre>SABORES DE HELADOS CON NATA</nombre>
+            <descripcion>YOGUR, ARROZ CON LECHE, TURRÓN, NATA, LIMÓN, DULCE DE LECHE, FRESA, VAINILLA, TARTA DE QUESO Y CHOCOLATE</descripcion>
+            <precio>5.30</precio>
+        </producto>
+    </seccion>
+</menu>
