@@ -24,21 +24,21 @@ Datos envío:
   Condiciones de Envío: Horario de entrega de 8 a.m. a 15 p.m.
 Ficha: 
   Articulos: 
-    -Artículo ID: 78958
-    Descripción: Producto X
-    Cantidad: 2
-    P/U: 10
-    Total: 20
-    -Artículo ID: 14455
-    Descripción: Producto T
-    Cantidad: 5
-    P/U: 50
-    Total: 250
-    -Artículo ID: 66888
-    Descripción: Producto H
-    Cantidad: 1
-    P/U: 200
-    Total: 200
+    - Artículo ID: 78958
+      Descripción: Producto X
+      Cantidad: 2
+      P/U: 10
+      Total: 20
+    - Artículo ID: 14455
+      Descripción: Producto T
+      Cantidad: 5
+      P/U: 50
+      Total: 250
+    - Artículo ID: 66888
+      Descripción: Producto H
+      Cantidad: 1
+      P/U: 200
+      Total: 200
   Subtotal: 570
   21%IVA: 119.70
   Envío: 0
