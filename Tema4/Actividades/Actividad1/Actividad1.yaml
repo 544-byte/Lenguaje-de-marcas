@@ -1,0 +1,33 @@
+especies:
+    - nombre: Acer monspessulanum
+      nombreComun: Arce de Montpellier, Arce menor
+      vegetacion: Caducifolio
+      altura: De 6 a 10 metros
+      formaYestructura: Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante
+      colorEnPrimavera: Haz verde brillante, envés verde blanquecino
+      resistenciaAlasHeladas: 
+  
+    - nombre: Olea europea
+      nombreComun: Olivo
+      vegetacion: Perenne
+      altura: De 8 a 15 metros
+      formaYestructura: Copa irregular. Tronco principal recto con ramas horizontales. Ramaje tortuoso
+      colorEnPrimavera: Haz verde oscuro, envés verde plateado
+      resistenciaAlasHeladas: Heladas medias (hasta -10ºC)
+  
+    - nombre: Platanus orientalis
+      nombreComun: Plátano
+      vegetacion: Caducifolio
+      altura: De 20 a 25 metros
+      formaYestructura: Copa ovoidal. Tronco principal recto. Ramaje expandido
+      colorEnPrimavera: Haz verde medio, envés verde claro
+      colorEnOtoño: Ocre
+      resistenciaAlasHeladas: Heladas fuertes (hasta -20ºC)
+  
+    - nombre: Quercus elix
+      nombreComun: Encina
+      vegetacion: Perenne
+      altura: En torno a 25 metros
+      formaYestructura: Copa esférica o elíptica irregular. Tronco principal recto. Ramaje tortuoso
+      colorEnPrimavera: Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado
+      resistenciaAlasHeladas: Heladas fuertes (hasta -15ºC)
