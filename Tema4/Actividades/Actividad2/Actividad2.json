@@ -1,0 +1,62 @@
+{
+    "nFactura": "999",
+    "empresa": "Equipos Digitales S.L.",
+    "direccion": [
+        "Av. Valladolid",
+        "Madrid 28015"
+    ],
+    "CIF": "Q-9876543",
+    "contacto": {
+        "telefono": "91.777.66.88",
+        "fax": "91.777.66.99"
+    },
+    "infoFactura": {
+        "fecha": "12-01-2005",
+        "nPedido": "731",
+        "formaPago": "EFECTIVO"
+    },
+    "datosCliente": {
+        "nCliente": "879",
+        "nombre": "Dario Bueno Gutiérrez",
+        "direccionEnvio": "Av. Oporto nº7 4ºd",
+        "poblacion": "Madrid",
+        "codPostal": "28043",
+        "provincia": "Madrid"
+    },
+    "datosFactura": {
+        "conceptos": [
+            {
+                "REF": "MII93000F/8",
+                "descripcion": "MICRO PENTIUM IV 3000MHZ FB800",
+                "cantidad": 1,
+                "precio": 230,
+                "IVA": 16,
+                "Importe": 266.80
+            },
+            {
+                "REF": "MB8QDIP4",
+                "descripcion": "PLACA BASE QDI P4",
+                "cantidad": 1,
+                "precio": 180,
+                "IVA": 16,
+                "Importe": 208.80
+            },
+            {
+                "REF": "MEDD512M32",
+                "descripcion": "DIMM DDR 512MB 3200",
+                "cantidad": 2,
+                "precio": 40,
+                "IVA": 16,
+                "Importe": 92.80
+            },
+            {
+                "REF": "HD250GSA7",
+                "descripcion": "DISCO DURO 250GB S-ATA 7200",
+                "cantidad": 4,
+                "precio": 120,
+                "IVA": 16,
+                "Importe": 556.80
+            }
+        ],
+        "total": 271.00
+    }
