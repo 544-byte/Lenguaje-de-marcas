@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+}
+
+#contenedor{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    overflow-x: scroll;
+    height: fit-content;
+    
+}
+
+/* Scrollbar horizontal */
+#contenedor::-webkit-scrollbar {
+    height: 12px;
+}
+
+/* Track (fondo) */
+#contenedor::-webkit-scrollbar-track {
+    background: red;
+    border-radius: 6px;
+}
+
+
+.tarjeta{
+    border: #bbb solid 5px;
+    border-radius: 5px;
+    min-width: max-content;
+    margin: 1em;
+    padding: 1em;
+    background-color: #888;
+}
