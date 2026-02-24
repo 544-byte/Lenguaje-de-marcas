@@ -1,0 +1,6 @@
+Modificar las páginas web de los tema anteriores (cafetería y pastelería) para que carguen su contenido a través de un fichero JSON.
+Se pide:
+    · Generar un JSON donde se almacene la información.
+    · Modificar la página principal para mostrar el contenido del JSON.
+    · Al seleccionar un producto lleva a una página plantilla donde se cargarán los datos del producto seleccionado.
+    · La página deberá de cargar también las imágenes cogiendo su dirección desde el JSON.

@@ -27,16 +27,21 @@ html,body{
 
 /* Track (fondo) */
 #contenedor::-webkit-scrollbar-track {
-    background: red;
-    border-radius: 6px;
+    background-color: transparent;
+}
+
+#contenedor::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 5px;
 }
 
 
 .tarjeta{
     border: #bbb solid 5px;
     border-radius: 5px;
-    min-width: max-content;
+    min-width: 17em;
     margin: 1em;
     padding: 1em;
     background-color: #888;
+    justify-items: center;
 }

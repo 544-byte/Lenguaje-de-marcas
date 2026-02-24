@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fdf;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+* {
+    transition: 500ms;
+}
+
+header {
+    width: 100%;
+    background-color: #fbf;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+    #logo {
+        margin: 10px 0 10px 0;
+        height: 100px;
+    }
+
+    #title {
+        font-size: 60px;
+        margin: 10px 0 10px 0;
+    }
+
+    #darkMode {
+        position: absolute;
+        background-color: transparent;
+        border: 0;
+
+        img {
+            width: 100px;
+        }
+
+        right: 20px;
+    }
+
+}
+
+nav {
+    width: 100%;
+    background-color: #fcf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p:first-child {
+        border-left: 0;
+    }
+
+    p {
+        font-weight: bold;
+        margin: 10px 0 10px 0;
+        padding: 10px 30px 10px 30px;
+        border-left: 2px #f7f solid;
+        transition: 0s !important;
+    }
+
+    p:hover {
+        background-color: #f9f;
+        box-shadow: inset 0 0 15px 10px #fcf;
+        transition: 0s !important;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+main {
+    display: flex;
+    padding: 0 20% 0 20%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    #mainIzqd {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        min-width: max-content;
+        width: max-content;
+
+        table {
+            margin: 5%;
+            border: solid 10px #f7f;
+            border-collapse: collapse;
+            background-color: #fcf;
+
+            th {
+                padding: 15px 5px 15px 5px;
+                border-bottom: solid 5px #f7f;
+                color: #f5f;
+            }
+
+            td {
+                text-align: center;
+                padding: 15px 10px 15px 10px;
+                border-bottom: solid 3px #f7f;
+                color: #f3f;
+
+            }
+        }
+
+
+    }
+
+    #mainDcha {
+        display: flex;
+        min-width: 50%;
+        width: min-content;
+        flex-grow: 1;
+        justify-content: center;
+        overflow: auto;
+        flex-wrap: wrap;
+        margin: 156px 0;
+
+        img {
+            margin-top: 5%;
+            width: 300px;
+            border-radius: 20px;
+        }
+
+        p {
+            border: 3px solid #f7f;
+            padding: 10px;
+            color: #f5f;
+            background-color: #fcf;
+        }
+    }
+
+    #carrusel {
+        border-radius: 4px;
+        margin-top: 10%;
+        height: 400px;
+    }
+}
+
+main.productos {
+    flex-direction: column;
+
+    #productDesc {
+        border: 3px solid #f7f;
+        padding: 10px;
+        color: #f5f;
+        background-color: #fcf;
+    }
+
+    #productoSubmit {
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+}
+
+footer {
+    display: flex;
+    height: 100px;
+    background-color: #fbf;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#producto {
+    border: 2px solid black;
+    color: white;
+}
+
+p.input {
+    margin: 0;
+    border: 2px solid transparent !important;
+    padding: 1px 2px !important;
+    background-color: transparent !important;
+    font-size: 13.3333px;
+    height: 15.58px;
+    margin-top: -21px;
+    width: 172px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+#placeholder {
+    color: GRAY !important;
+    z-index: 4;
+}
+
+
+#currentText {
+    color: black !important;
+    z-index: 5;
+}

@@ -1,0 +1,91 @@
+{
+    "categoria" : [
+        {
+            "nombre" : "Bebidas Calientes",
+            "producto" : [
+                {
+                    "img" : "https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=500&auto=format&fit=crop",
+                    "nombre" : "Café Latte",
+                    "desc" : "Equilibrio perfecto entre espresso intenso y leche vaporizada con una fina capa de espuma.",
+                    "precio" : 3.50
+                },
+                {
+                    "img" : "https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=500&auto=format&fit=crop",
+                    "nombre" : "Cappuccino Tradicional",
+                    "desc" : "Doble carga de espresso, leche caliente y una generosa capa de espuma de leche aterciopelada.",
+                    "precio" : 3.75
+                },
+                {
+                    "img" : "https://images.pexels.com/photos/5946633/pexels-photo-5946633.jpeg?auto=compress&cs=tinysrgb&w=500",
+                    "nombre" : "Té Matcha Latte",
+                    "desc" : "Té verde matcha premium disuelto en leche de almendras caliente con un toque de vainilla.",
+                    "precio" : 4.20
+                },
+                {
+                    "img" : "https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=500&auto=format&fit=crop",
+                    "nombre" : "Chocolate Caliente",
+                    "desc" : "Chocolate artesanal derretido con leche entera y una pizca de canela de Ceilán.",
+                    "precio" : 3.90
+                }
+            ]
+        },
+        {
+            "nombre" : "Fríos y frappés",
+            "producto" : [
+                {
+                    "img" : "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=500&auto=format&fit=crop",
+                    "nombre" : "Frappé de Caramelo",
+                    "desc" : "Bebida cremosa a base de café mezclada con hielo y un remolino de salsa de caramelo dulce.",
+                    "precio" : 4.95
+                },
+                {
+                    "img" : "https://images.pexels.com/photos/2615323/pexels-photo-2615323.jpeg?auto=compress&cs=tinysrgb&w=500",
+                    "nombre" : "Iced Americano",
+                    "desc" : "Doble shot de espresso vertido sobre agua helada y cubos de hielo.",
+                    "precio" : 3.00
+                },
+                {
+                    "img" : "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=500&auto=format&fit=crop",
+                    "nombre" : "Frappé de Chocolate Blanco",
+                    "desc" : "Mezcla helada de cacao blanco, crema batida y chispas de chocolate.",
+                    "precio" : 5.10
+                },
+                {
+                    "img" : "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?q=80&w=500&auto=format&fit=crop",
+                    "nombre" : "Cold Brew Original",
+                    "desc" : "Café infusionado en frío durante 18 horas para un sabor suave y baja acidez.",
+                    "precio" : 4.50
+                }
+            ]
+        },
+        {
+            "nombre" : "Pastelería",
+            "producto" : [
+                {
+                    "img" : "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=500&auto=format&fit=crop",
+                    "nombre" : "Croissant de Mantequilla",
+                    "desc" : "Clásico hojaldre francés elaborado con mantequilla pura, crujiente por fuera y tierno por dentro.",
+                    "precio" : 2.50
+                },
+                {
+                    "img" : "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?q=80&w=500&auto=format&fit=crop",
+                    "nombre" : "Cheesecake de Arándanos",
+                    "desc" : "Pastel de queso cremoso sobre base de galleta, cubierto con mermelada artesanal de arándanos.",
+                    "precio" : 4.80
+                },
+                {
+                    "img" : "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?q=80&w=500&auto=format&fit=crop",
+                    "nombre" : "Pastel de Chocolate",
+                    "desc" : "Bizcocho húmedo de chocolate oscuro con capas de ganache de cacao al 70%.",
+                    "precio" : 4.50
+                },
+                {
+                    "img" : "https://images.unsplash.com/photo-1509365465985-25d11c17e812?q=80&w=500&auto=format&fit=crop",
+                    "nombre" : "Muffin de Vainilla y Chispas",
+                    "desc" : "Muffin esponjoso con extracto de vainilla natural y abundantes trozos de chocolate con leche.",
+                    "precio" : 2.75
+                }
+            ]
+        }
+    ]
+}
