@@ -4,14 +4,16 @@ function crearSection(cat) {
     cat.producto.forEach(p => {
         const tarjeta = document.createElement("div");
         tarjeta.innerHTML = `
+        <a href="./producto.html?cat=${cat.nombre}&id=${p.id}">    
         <div class="item">
-            <img src="${p.img}" alt="">
+        <img src="${p.img}" alt="">
             <ul>
                 <li class="name">${p.nombre}</li>
                 <li class="desc">${p.desc}</li>
                 <li class="price">${p.precio}</li>
-            </ul>
+            </ul>   
         </div>
+        </a>
         `;
         section.appendChild(tarjeta);
     });
@@ -23,10 +25,10 @@ function crearSection(cat) {
 
 fetch("../RES/menu.json")
     .then(response => response.json())
-    .then(data => {
+    .then(categorias => {
         const main = document.getElementById("main");
         main.innerHTML = "";
-        data.categoria.forEach(cat => {
+        categorias.categoria.forEach(cat => {
             crearSection(cat);
         });
 

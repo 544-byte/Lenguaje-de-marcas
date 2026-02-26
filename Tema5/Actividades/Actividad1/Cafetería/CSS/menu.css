@@ -75,6 +75,7 @@ section {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+    padding-left: 40px;
 }
 
 section img {
@@ -234,3 +235,7 @@ footer {
     }
 }
 
+section div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
