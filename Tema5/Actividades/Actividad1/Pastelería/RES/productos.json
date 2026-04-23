@@ -1,0 +1,29 @@
+{
+    "producto" : [
+        {
+            "nombre": "Muerte por chocolate",
+            "precio" : 7,
+            "tipo" : "Tarta",
+            "img" : "../RES/0.jpg"
+        },
+        {
+            "nombre": "Oreo",
+            "precio" : 2,
+            "tipo" : "Galleta",
+            "img" : "../RES/1.jpg"
+        },
+        {
+            "nombre": "Chips Ahoy",
+            "precio" : 2,
+            "tipo" : "Galleta",
+            "img" : "../RES/2.jpg"
+        },
+        {
+            "nombre" : "Lemonchelo",
+            "precio" : 5,
+            "tipo" : "Postre",
+            "img" : "../RES/3.jpg"
+        }
+    ]
+    
+}

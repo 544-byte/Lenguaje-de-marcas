@@ -1,0 +1,29 @@
+<!ELEMENT centro (datos,ciclo+)>
+<!ATTLIST centro CIF ID #REQUIRED>
+<!ATTLIST centro razonSocial CDATA #REQUIRED>
+<!ATTLIST centro director IDREF #REQUIRED>
+
+<!ELEMENT profesor (datos,especialidad+)>
+<!ATTLIST profesor prof_id ID #REQUIRED>
+
+<!ELEMENT ciclo (nombre,año,año)>
+
+<!ELEMENT año (asignatura+)>
+
+<!ELEMENT asignatura (nombre,horas)>
+<!ATTLIST asignatura  ref_prof IDREF #REQUIRED>
+<!ELEMENT horas (#PCDATA)>
+
+
+<!ELEMENT datos (nombre,apellidos?,tlf?,correo?,direccion)>
+
+
+
+
+<!-- Datos -->
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!-- - - - -->

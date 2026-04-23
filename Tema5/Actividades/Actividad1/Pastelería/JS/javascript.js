@@ -53,8 +53,9 @@ productName = ["Muerte por chocolate", "Oreo", "Chips Ahoy", "Lemonchelo"]
 for (i = 0; i < 4; i++) {
     productImg[i] = "../RES/" + i + ".jpg"
 }
-
+/*
 img = 0;
+
 document.getElementById("carrusel").addEventListener("click", () => {
     if (img < productImg.length - 1) {
         img++;
@@ -89,6 +90,7 @@ document.getElementById("producto").addEventListener("keyup", () => { //Actualiz
     placeholder();
 
 })
+    
 document.getElementById("productoSubmit").addEventListener("click", () => { // cuando se submittea se comprueba el contenido y se llama a productUpdater con el id de producto correspondiente.
     switch (productInput) {
         case "Muerte por chocolate":
@@ -121,3 +123,38 @@ function placeholder() {
         }
     }
 }
+*/
+function addToTable(productos) {
+    const div = document.getElementById("mainIzqd");
+    const table = document.createElement("table");
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<th>Nombre</th>
+					<th>Precio</th>
+					<th>Tipo</th>`;
+    table.innerHTML = tr.outerHTML;
+    
+    productos.producto.forEach(p => {
+        const tr = document.createElement("tr")
+        tr.innerHTML = `<td><a href="./producto.html?producto=${p.nombre}">${p.nombre}</a></td>
+					    <td>${p.precio}€</td>
+					    <td>${p.tipo}</td>`;
+        table.appendChild(tr);
+    })
+    div.innerHTML = table.outerHTML;
+}
+fetch("../RES/productos.json")
+    .then(response => response.json())
+    .then(productos => {
+        const param = new URLSearchParams(window.location.search)
+        let product = param.get("producto")
+        productos.producto.forEach(p => {
+            if (p.nombre == product){
+                document.getElementById("display").innerHTML = `
+                <img id="" src="${p.img}" alt="imágen">
+	    	    <p id="productDesc">${p.nombre}</p>
+                <p id="productDesc">${p.precio}€</p>
+                `;
+            }
+        });
+       addToTable(productos);
+    });

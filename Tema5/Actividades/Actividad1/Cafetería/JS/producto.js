@@ -29,5 +29,3 @@ fetch("../RES/menu.json")
         `;
 
         });
-
-
