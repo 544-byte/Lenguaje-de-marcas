@@ -1,5 +1,387 @@
-<!DOCTYPE note SYSTEM "estructura.dtd">
-<centro CIF="">
+<!DOCTYPE centro SYSTEM "estructura.dtd">
 
+<centro CIF="C56511037" razonSocial="Centro Integrado de Formación Profesional Nº1" director="prof001">
+    
+    <datos>
+        <nombre>CIFP Nº1</nombre>
+        <tlf>956511037</tlf>
+        <correo>cifp@educeuta.es</correo>
+        <direccion>Avenida San Juan de Dios 1</direccion>
+    </datos>
+
+    <profesor prof_id="prof001">
+        <datos>
+            <nombre>Juan</nombre>
+            <apellidos>García López</apellidos>
+            <tlf>600111222</tlf>
+            <correo>juan.garcia@educeuta.es</correo>
+            <direccion>Calle Principal 10</direccion>
+        </datos>
+        <especialidad>Informática</especialidad>
+    </profesor>
+
+    <profesor prof_id="prof002">
+        <datos>
+            <nombre>Ana</nombre>
+            <apellidos>Martínez Reus</apellidos>
+            <tlf>600333444</tlf>
+            <correo>ana.martinez@educeuta.es</correo>
+            <direccion>Calle Secundaria 5</direccion>
+        </datos>
+        <especialidad>Diseño de Interfaces y Aplicaciones</especialidad>
+    </profesor>
+
+    <profesor prof_id="prof003">
+        <datos>
+            <nombre>Laura</nombre>
+            <apellidos>Sánchez Pérez</apellidos>
+            <tlf>600555666</tlf>
+            <correo>laura.sanchez@educeuta.es</correo>
+            <direccion>Calle Avenida 12</direccion>
+        </datos>
+        <especialidad>Redes Informáticas</especialidad>
+    </profesor>
+
+    <profesor prof_id="prof004">
+        <datos>
+            <nombre>Miguel</nombre>
+            <apellidos>Torres Díaz</apellidos>
+            <tlf>600777888</tlf>
+            <correo>miguel.torres@educeuta.es</correo>
+            <direccion>Calle Comercio 8</direccion>
+        </datos>
+        <especialidad>Desarrollo Web</especialidad>
+    </profesor>
+
+    <profesor prof_id="prof005">
+        <datos>
+            <nombre>Marta</nombre>
+            <apellidos>Ruiz Cruz</apellidos>
+            <tlf>600999000</tlf>
+            <correo>marta.ruiz@educeuta.es</correo>
+            <direccion>Calle Educación 16</direccion>
+        </datos>
+        <especialidad>Formación y Orientación Laboral</especialidad>
+    </profesor>
+
+    <profesor prof_id="prof006">
+        <datos>
+            <nombre>Carlos</nombre>
+            <apellidos>Jiménez Gómez</apellidos>
+            <tlf>600222333</tlf>
+            <correo>carlos.jimenez@educeuta.es</correo>
+            <direccion>Calle Red 20</direccion>
+        </datos>
+        <especialidad>Sistemas Informáticos</especialidad>
+    </profesor>
+
+    <profesor prof_id="prof007">
+        <datos>
+            <nombre>Elena</nombre>
+            <apellidos>Fernández Morales</apellidos>
+            <tlf>600444555</tlf>
+            <correo>elena.fernandez@educeuta.es</correo>
+            <direccion>Calle Base 3</direccion>
+        </datos>
+        <especialidad>Bases de Datos</especialidad>
+    </profesor>
+
+    <profesor prof_id="prof008">
+        <datos>
+            <nombre>Lucía</nombre>
+            <apellidos>Gómez Ruiz</apellidos>
+            <tlf>600121314</tlf>
+            <correo>lucia.gomez@educeuta.es</correo>
+            <direccion>Calle Inglés 9</direccion>
+        </datos>
+        <especialidad>Inglés Técnico</especialidad>
+    </profesor>
+
+    <profesor prof_id="prof009">
+        <datos>
+            <nombre>Raúl</nombre>
+            <apellidos>Vega Cano</apellidos>
+            <tlf>600151617</tlf>
+            <correo>raul.vega@educeuta.es</correo>
+            <direccion>Calle Multimedia 18</direccion>
+        </datos>
+        <especialidad>Desarrollo de Aplicaciones Multiplataforma</especialidad>
+    </profesor>
+
+    <profesor prof_id="prof010">
+        <datos>
+            <nombre>Sofía</nombre>
+            <apellidos>Martín López</apellidos>
+            <tlf>600181920</tlf>
+            <correo>sofia.martin@educeuta.es</correo>
+            <direccion>Calle Sistemas 22</direccion>
+        </datos>
+        <especialidad>Desarrollo Web y Sistemas</especialidad>
+    </profesor>
+
+    <profesor prof_id="prof011">
+        <datos>
+            <nombre>Nuria</nombre>
+            <apellidos>Castro Herrera</apellidos>
+            <tlf>600212223</tlf>
+            <correo>nuria.castro@educeuta.es</correo>
+            <direccion>Calle Seguridad 7</direccion>
+        </datos>
+        <especialidad>Gestión de Sistemas y Seguridad</especialidad>
+    </profesor>
+
+    <profesor prof_id="prof012">
+        <datos>
+            <nombre>Sara</nombre>
+            <apellidos>Font Recio</apellidos>
+            <tlf>600242526</tlf>
+            <correo>sara.font@educeuta.es</correo>
+            <direccion>Calle Servicios 14</direccion>
+        </datos>
+        <especialidad>Programación de Servicios</especialidad>
+    </profesor>
+
+    <ciclo>
+        <nombre>Desarrollo de Aplicaciones Web</nombre>
+        
+        <año>
+            <horario>
+                <dia diaSemana="Lunes">
+                    <hora ref_asig="DAW1_BBDD">08:25-10:15</hora>
+                    <hora ref_asig="DAW1_PROG">10:15-12:25</hora>
+                    <hora ref_asig="DAW1_LM">12:25-13:20</hora>
+                </dia>
+                <dia diaSemana="Martes">
+                    <hora ref_asig="DAW1_ING">08:25-09:20</hora>
+                    <hora ref_asig="DAW1_FOL">09:20-10:15</hora>
+                    <hora ref_asig="DAW1_BBDD">10:15-11:10</hora>
+                    <hora ref_asig="DAW1_IPE">11:30-12:25</hora>
+                    <hora ref_asig="DAW1_PROG">12:25-13:20</hora>
+                </dia>
+                <dia diaSemana="Miércoles">
+                    <hora ref_asig="DAW1_PROG">08:25-10:15</hora>
+                    <hora ref_asig="DAW1_BBDD">10:15-12:25</hora>
+                </dia>
+                <dia diaSemana="Jueves">
+                    <hora ref_asig="DAW1_FOL">08:25-10:15</hora>
+                    <hora ref_asig="DAW1_LM">10:15-12:25</hora>
+                </dia>
+                <dia diaSemana="Viernes">
+                    <hora ref_asig="DAW1_PROG">08:25-10:15</hora>
+                    <hora ref_asig="DAW1_ING">10:15-11:10</hora>
+                    <hora ref_asig="DAW1_IPE">11:30-12:25</hora>
+                </dia>
+            </horario>
+            <asignatura asig_id="DAW1_BBDD" ref_prof="prof007">
+                <nombre>Bases de Datos</nombre>
+                <horas>5</horas>
+            </asignatura>
+            <asignatura asig_id="DAW1_PROG" ref_prof="prof004">
+                <nombre>Programación</nombre>
+                <horas>5</horas>
+            </asignatura>
+            <asignatura asig_id="DAW1_FOL" ref_prof="prof005">
+                <nombre>Formación y Orientación Laboral</nombre>
+                <horas>3</horas>
+            </asignatura>
+            <asignatura asig_id="DAW1_IPE" ref_prof="prof005">
+                <nombre>Itinerario Personal para la Empleabilidad</nombre>
+                <horas>3</horas>
+            </asignatura>
+            <asignatura asig_id="DAW1_ING" ref_prof="prof008">
+                <nombre>Inglés Técnico</nombre>
+                <horas>3</horas>
+            </asignatura>
+            <asignatura asig_id="DAW1_LM" ref_prof="prof002">
+                <nombre>Lenguaje de Marcas</nombre>
+                <horas>3</horas>
+            </asignatura>
+        </año>
+
+        <año>
+            <horario>
+                <dia diaSemana="Lunes">
+                    <hora ref_asig="DAW2_ING">08:25-09:20</hora>
+                    <hora ref_asig="DAW2_DWES">09:20-10:15</hora>
+                    <hora ref_asig="DAW2_DIW">10:15-11:10</hora>
+                    <hora ref_asig="DAW2_DWES">11:30-12:25</hora>
+                </dia>
+                <dia diaSemana="Martes">
+                    <hora ref_asig="DAW2_DWEC">08:25-10:15</hora>
+                    <hora ref_asig="DAW2_DWES">10:15-11:10</hora>
+                </dia>
+                <dia diaSemana="Miércoles">
+                    <hora ref_asig="DAW2_DIW">08:25-09:20</hora>
+                    <hora ref_asig="DAW2_DWES">09:20-10:15</hora>
+                    <hora ref_asig="DAW2_DWEC">10:15-11:10</hora>
+                    <hora ref_asig="DAW2_ING">11:30-12:25</hora>
+                </dia>
+                <dia diaSemana="Jueves">
+                    <hora ref_asig="DAW2_DWEC">08:25-10:15</hora>
+                </dia>
+                <dia diaSemana="Viernes">
+                    <hora ref_asig="DAW2_ING">08:25-09:20</hora>
+                    <hora ref_asig="DAW2_DWEC">09:20-10:15</hora>
+                    <hora ref_asig="DAW2_DWES">10:15-12:25</hora>
+                </dia>
+            </horario>
+            <asignatura asig_id="DAW2_DWES" ref_prof="prof010">
+                <nombre>Desarrollo Web en Entorno Servidor</nombre>
+                <horas>5</horas>
+            </asignatura>
+            <asignatura asig_id="DAW2_DWEC" ref_prof="prof010">
+                <nombre>Desarrollo Web en Entorno Cliente</nombre>
+                <horas>6</horas>
+            </asignatura>
+            <asignatura asig_id="DAW2_DIW" ref_prof="prof002">
+                <nombre>Diseño de Interfaces Web</nombre>
+                <horas>3</horas>
+            </asignatura>
+            <asignatura asig_id="DAW2_ING" ref_prof="prof008">
+                <nombre>Inglés Técnico</nombre>
+                <horas>3</horas>
+            </asignatura>
+        </año>
+    </ciclo>
+
+    <ciclo>
+        <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+        <año>
+            <horario>
+                <dia diaSemana="Lunes">
+                    <hora ref_asig="DAM1_PROG">15:30-17:20</hora>
+                    <hora ref_asig="DAM1_SIS">17:30-19:20</hora>
+                </dia>
+                <dia diaSemana="Martes">
+                    <hora ref_asig="DAM1_ED">15:30-17:20</hora>
+                    <hora ref_asig="DAM1_SIS">17:30-19:20</hora>
+                </dia>
+                <dia diaSemana="Miércoles">
+                    <hora ref_asig="DAM1_PROG">15:30-17:20</hora>
+                </dia>
+                <dia diaSemana="Jueves">
+                    <hora ref_asig="DAM1_PROG">17:30-19:20</hora>
+                </dia>
+                <dia diaSemana="Viernes">
+                    <hora ref_asig="DAM1_SIS">15:30-17:20</hora>
+                    <hora ref_asig="DAM1_ED">17:30-18:25</hora>
+                </dia>
+            </horario>
+            <asignatura asig_id="DAM1_PROG" ref_prof="prof004">
+                <nombre>Programación</nombre>
+                <horas>6</horas>
+            </asignatura>
+            <asignatura asig_id="DAM1_SIS" ref_prof="prof009">
+                <nombre>Sistemas Informáticos</nombre>
+                <horas>6</horas>
+            </asignatura>
+            <asignatura asig_id="DAM1_ED" ref_prof="prof001">
+                <nombre>Entornos de Desarrollo</nombre>
+                <horas>3</horas>
+            </asignatura>
+        </año>
+        <año>
+            <horario>
+                <dia diaSemana="Lunes">
+                    <hora ref_asig="DAM2_PMDM">15:30-17:20</hora>
+                </dia>
+                <dia diaSemana="Martes">
+                    <hora ref_asig="DAM2_DIN">15:30-17:20</hora>
+                </dia>
+                <dia diaSemana="Miércoles">
+                    <hora ref_asig="DAM2_PSP">15:30-17:20</hora>
+                </dia>
+                <dia diaSemana="Jueves">
+                    <hora ref_asig="DAM2_PMDM">15:30-17:20</hora>
+                    <hora ref_asig="DAM2_DIN">17:30-19:20</hora>
+                </dia>
+                <dia diaSemana="Viernes">
+                    <hora ref_asig="DAM2_PSP">15:30-17:20</hora>
+                    <hora ref_asig="DAM2_DIN">17:30-18:25</hora>
+                    <hora ref_asig="DAM2_PMDM">18:35-19:20</hora>
+                </dia>
+            </horario>
+            <asignatura asig_id="DAM2_PMDM" ref_prof="prof009">
+                <nombre>Prog. Multimedia y Dispositivos Móviles</nombre>
+                <horas>5</horas>
+            </asignatura>
+            <asignatura asig_id="DAM2_DIN" ref_prof="prof009">
+                <nombre>Desarrollo de Interfaces</nombre>
+                <horas>5</horas>
+            </asignatura>
+            <asignatura asig_id="DAM2_PSP" ref_prof="prof012">
+                <nombre>Prog. de Servicios y Procesos</nombre>
+                <horas>4</horas>
+            </asignatura>
+        </año>
+    </ciclo>
+
+    <ciclo>
+        <nombre>Adm. de Sistemas Informáticos en Red</nombre>
+        <año>
+            <horario>
+                <dia diaSemana="Lunes">
+                    <hora ref_asig="ASIR1_PAR">15:30-17:20</hora>
+                </dia>
+                <dia diaSemana="Martes">
+                    <hora ref_asig="ASIR1_ISO">15:30-17:20</hora>
+                </dia>
+                <dia diaSemana="Miércoles">
+                    <hora ref_asig="ASIR1_GBD">15:30-17:20</hora>
+                </dia>
+                <dia diaSemana="Jueves">
+                    <hora ref_asig="ASIR1_ISO">17:30-19:20</hora>
+                </dia>
+                <dia diaSemana="Viernes">
+                    <hora ref_asig="ASIR1_PAR">15:30-17:20</hora>
+                    <hora ref_asig="ASIR1_GBD">17:30-19:20</hora>
+                </dia>
+            </horario>
+            <asignatura asig_id="ASIR1_PAR" ref_prof="prof003">
+                <nombre>Planificación y Adm. de Redes</nombre>
+                <horas>5</horas>
+            </asignatura>
+            <asignatura asig_id="ASIR1_ISO" ref_prof="prof006">
+                <nombre>Implantación de SO</nombre>
+                <horas>5</horas>
+            </asignatura>
+            <asignatura asig_id="ASIR1_GBD" ref_prof="prof011">
+                <nombre>Gestión de Bases de Datos</nombre>
+                <horas>4</horas>
+            </asignatura>
+        </año>
+        <año>
+            <horario>
+                <dia diaSemana="Lunes">
+                    <hora ref_asig="ASIR2_ASO">15:30-17:20</hora>
+                </dia>
+                <dia diaSemana="Martes">
+                    <hora ref_asig="ASIR2_SRI">15:30-17:20</hora>
+                </dia>
+                <dia diaSemana="Miércoles">
+                    <hora ref_asig="ASIR2_SAD">15:30-17:20</hora>
+                </dia>
+                <dia diaSemana="Jueves">
+                    <hora ref_asig="ASIR2_ASO">17:30-19:20</hora>
+                </dia>
+                <dia diaSemana="Viernes">
+                    <hora ref_asig="ASIR2_SRI">15:30-17:20</hora>
+                    <hora ref_asig="ASIR2_SAD">17:30-19:20</hora>
+                </dia>
+            </horario>
+            <asignatura asig_id="ASIR2_ASO" ref_prof="prof006">
+                <nombre>Adm. de Sistemas Operativos</nombre>
+                <horas>4</horas>
+            </asignatura>
+            <asignatura asig_id="ASIR2_SRI" ref_prof="prof003">
+                <nombre>Servicios de Red e Internet</nombre>
+                <horas>4</horas>
+            </asignatura>
+            <asignatura asig_id="ASIR2_SAD" ref_prof="prof011">
+                <nombre>Seguridad y Alta Disponibilidad</nombre>
+                <horas>4</horas>
+            </asignatura>
+        </año>
+    </ciclo>
 
 </centro>
