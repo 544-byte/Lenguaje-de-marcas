@@ -150,6 +150,7 @@
                     <hora ref_asig="DAW1_BBDD">08:25-10:15</hora>
                     <hora ref_asig="DAW1_PROG">10:15-12:25</hora>
                     <hora ref_asig="DAW1_LM">12:25-13:20</hora>
+                    <hora ref_asig="DAW1_SIS">13:20-15:10</hora>
                 </dia>
                 <dia diaSemana="Martes">
                     <hora ref_asig="DAW1_ING">08:25-09:20</hora>
@@ -161,6 +162,7 @@
                 <dia diaSemana="Miércoles">
                     <hora ref_asig="DAW1_PROG">08:25-10:15</hora>
                     <hora ref_asig="DAW1_BBDD">10:15-12:25</hora>
+                    <hora ref_asig="DAW1_SIS">12:25-15:10</hora>
                 </dia>
                 <dia diaSemana="Jueves">
                     <hora ref_asig="DAW1_FOL">08:25-10:15</hora>
@@ -170,15 +172,16 @@
                     <hora ref_asig="DAW1_PROG">08:25-10:15</hora>
                     <hora ref_asig="DAW1_ING">10:15-11:10</hora>
                     <hora ref_asig="DAW1_IPE">11:30-12:25</hora>
+                    <hora ref_asig="DAW1_ED">12:25-13:20</hora>
                 </dia>
             </horario>
             <asignatura asig_id="DAW1_BBDD" ref_prof="prof007">
                 <nombre>Bases de Datos</nombre>
-                <horas>5</horas>
+                <horas>4</horas>
             </asignatura>
             <asignatura asig_id="DAW1_PROG" ref_prof="prof004">
                 <nombre>Programación</nombre>
-                <horas>5</horas>
+                <horas>8</horas>
             </asignatura>
             <asignatura asig_id="DAW1_FOL" ref_prof="prof005">
                 <nombre>Formación y Orientación Laboral</nombre>
@@ -189,11 +192,19 @@
                 <horas>3</horas>
             </asignatura>
             <asignatura asig_id="DAW1_ING" ref_prof="prof008">
-                <nombre>Inglés Técnico</nombre>
-                <horas>3</horas>
+                <nombre>Inglés</nombre>
+                <horas>2</horas>
             </asignatura>
             <asignatura asig_id="DAW1_LM" ref_prof="prof002">
-                <nombre>Lenguaje de Marcas</nombre>
+                <nombre>Lenguajes de Marcas y Sistemas de Gestión Empresarial</nombre>
+                <horas>4</horas>
+            </asignatura>
+            <asignatura asig_id="DAW1_SIS" ref_prof="prof006">
+                <nombre>Sistemas Informáticos</nombre>
+                <horas>6</horas>
+            </asignatura>
+            <asignatura asig_id="DAW1_ED" ref_prof="prof001">
+                <nombre>Entornos de Desarrollo</nombre>
                 <horas>3</horas>
             </asignatura>
         </año>
@@ -201,7 +212,7 @@
         <año>
             <horario>
                 <dia diaSemana="Lunes">
-                    <hora ref_asig="DAW2_ING">08:25-09:20</hora>
+                    <hora ref_asig="DAW2_DAW">08:25-09:20</hora>
                     <hora ref_asig="DAW2_DWES">09:20-10:15</hora>
                     <hora ref_asig="DAW2_DIW">10:15-11:10</hora>
                     <hora ref_asig="DAW2_DWES">11:30-12:25</hora>
@@ -214,32 +225,41 @@
                     <hora ref_asig="DAW2_DIW">08:25-09:20</hora>
                     <hora ref_asig="DAW2_DWES">09:20-10:15</hora>
                     <hora ref_asig="DAW2_DWEC">10:15-11:10</hora>
-                    <hora ref_asig="DAW2_ING">11:30-12:25</hora>
+                    <hora ref_asig="DAW2_EIE">11:30-12:25</hora>
                 </dia>
                 <dia diaSemana="Jueves">
                     <hora ref_asig="DAW2_DWEC">08:25-10:15</hora>
+                    <hora ref_asig="DAW2_PROY">10:15-11:10</hora>
                 </dia>
                 <dia diaSemana="Viernes">
-                    <hora ref_asig="DAW2_ING">08:25-09:20</hora>
+                    <hora ref_asig="DAW2_DAW">08:25-09:20</hora>
                     <hora ref_asig="DAW2_DWEC">09:20-10:15</hora>
                     <hora ref_asig="DAW2_DWES">10:15-12:25</hora>
                 </dia>
             </horario>
             <asignatura asig_id="DAW2_DWES" ref_prof="prof010">
-                <nombre>Desarrollo Web en Entorno Servidor</nombre>
-                <horas>5</horas>
+                <nombre>Desarrollo web en entorno servidor</nombre>
+                <horas>6</horas>
             </asignatura>
             <asignatura asig_id="DAW2_DWEC" ref_prof="prof010">
-                <nombre>Desarrollo Web en Entorno Cliente</nombre>
+                <nombre>Desarrollo web en entorno cliente</nombre>
                 <horas>6</horas>
             </asignatura>
             <asignatura asig_id="DAW2_DIW" ref_prof="prof002">
-                <nombre>Diseño de Interfaces Web</nombre>
+                <nombre>Diseño de interfaces web</nombre>
+                <horas>4</horas>
+            </asignatura>
+            <asignatura asig_id="DAW2_DAW" ref_prof="prof010">
+                <nombre>Despliegue de aplicaciones web</nombre>
+                <horas>4</horas>
+            </asignatura>
+            <asignatura asig_id="DAW2_EIE" ref_prof="prof005">
+                <nombre>Empresa e iniciativa emprendedora</nombre>
                 <horas>3</horas>
             </asignatura>
-            <asignatura asig_id="DAW2_ING" ref_prof="prof008">
-                <nombre>Inglés Técnico</nombre>
-                <horas>3</horas>
+            <asignatura asig_id="DAW2_PROY" ref_prof="prof004">
+                <nombre>Proyecto de desarrollo de aplicaciones web</nombre>
+                <horas>2</horas>
             </asignatura>
         </año>
     </ciclo>
@@ -251,54 +271,80 @@
                 <dia diaSemana="Lunes">
                     <hora ref_asig="DAM1_PROG">15:30-17:20</hora>
                     <hora ref_asig="DAM1_SIS">17:30-19:20</hora>
+                    <hora ref_asig="DAM1_BD">19:30-21:20</hora>
                 </dia>
                 <dia diaSemana="Martes">
                     <hora ref_asig="DAM1_ED">15:30-17:20</hora>
                     <hora ref_asig="DAM1_SIS">17:30-19:20</hora>
+                    <hora ref_asig="DAM1_BD">19:30-21:20</hora>
                 </dia>
                 <dia diaSemana="Miércoles">
                     <hora ref_asig="DAM1_PROG">15:30-17:20</hora>
+                    <hora ref_asig="DAM1_LM">17:30-19:20</hora>
                 </dia>
                 <dia diaSemana="Jueves">
-                    <hora ref_asig="DAM1_PROG">17:30-19:20</hora>
+                    <hora ref_asig="DAM1_PROG">15:30-17:20</hora>
+                    <hora ref_asig="DAM1_IPE">17:30-19:20</hora>
                 </dia>
                 <dia diaSemana="Viernes">
                     <hora ref_asig="DAM1_SIS">15:30-17:20</hora>
                     <hora ref_asig="DAM1_ED">17:30-18:25</hora>
+                    <hora ref_asig="DAM1_ING">18:35-19:30</hora>
                 </dia>
             </horario>
-            <asignatura asig_id="DAM1_PROG" ref_prof="prof004">
+            <asignatura asig_id="DAM1_PROG" ref_prof="prof009">
                 <nombre>Programación</nombre>
-                <horas>6</horas>
+                <horas>8</horas>
             </asignatura>
-            <asignatura asig_id="DAM1_SIS" ref_prof="prof009">
+            <asignatura asig_id="DAM1_SIS" ref_prof="prof004">
                 <nombre>Sistemas Informáticos</nombre>
-                <horas>6</horas>
+                <horas>5</horas>
             </asignatura>
             <asignatura asig_id="DAM1_ED" ref_prof="prof001">
                 <nombre>Entornos de Desarrollo</nombre>
                 <horas>3</horas>
+            </asignatura>
+            <asignatura asig_id="DAM1_BD" ref_prof="prof007">
+                <nombre>Bases de Datos</nombre>
+                <horas>6</horas>
+            </asignatura>
+            <asignatura asig_id="DAM1_LM" ref_prof="prof010">
+                <nombre>Lenguajes de Marcas y Sistemas de Gestión de Información</nombre>
+                <horas>4</horas>
+            </asignatura>
+            <asignatura asig_id="DAM1_IPE" ref_prof="prof005">
+                <nombre>Itinerario Personal para la Empleabilidad I</nombre>
+                <horas>3</horas>
+            </asignatura>
+            <asignatura asig_id="DAM1_ING" ref_prof="prof008">
+                <nombre>Ingles Profesional</nombre>
+                <horas>2</horas>
             </asignatura>
         </año>
         <año>
             <horario>
                 <dia diaSemana="Lunes">
                     <hora ref_asig="DAM2_PMDM">15:30-17:20</hora>
+                    <hora ref_asig="DAM2_AD">17:30-19:20</hora>
                 </dia>
                 <dia diaSemana="Martes">
                     <hora ref_asig="DAM2_DIN">15:30-17:20</hora>
+                    <hora ref_asig="DAM2_SGE">17:30-19:20</hora>
                 </dia>
                 <dia diaSemana="Miércoles">
                     <hora ref_asig="DAM2_PSP">15:30-17:20</hora>
+                    <hora ref_asig="DAM2_IPE2">17:30-19:20</hora>
                 </dia>
                 <dia diaSemana="Jueves">
                     <hora ref_asig="DAM2_PMDM">15:30-17:20</hora>
                     <hora ref_asig="DAM2_DIN">17:30-19:20</hora>
+                    <hora ref_asig="DAM2_ING">19:30-21:20</hora>
                 </dia>
                 <dia diaSemana="Viernes">
                     <hora ref_asig="DAM2_PSP">15:30-17:20</hora>
                     <hora ref_asig="DAM2_DIN">17:30-18:25</hora>
                     <hora ref_asig="DAM2_PMDM">18:35-19:20</hora>
+                    <hora ref_asig="DAM2_PI">19:30-20:25</hora>
                 </dia>
             </horario>
             <asignatura asig_id="DAM2_PMDM" ref_prof="prof009">
@@ -307,11 +353,31 @@
             </asignatura>
             <asignatura asig_id="DAM2_DIN" ref_prof="prof009">
                 <nombre>Desarrollo de Interfaces</nombre>
-                <horas>5</horas>
+                <horas>6</horas>
             </asignatura>
             <asignatura asig_id="DAM2_PSP" ref_prof="prof012">
                 <nombre>Prog. de Servicios y Procesos</nombre>
                 <horas>4</horas>
+            </asignatura>
+            <asignatura asig_id="DAM2_AD" ref_prof="prof007">
+                <nombre>Acceso a Datos</nombre>
+                <horas>4</horas>
+            </asignatura>
+            <asignatura asig_id="DAM2_SGE" ref_prof="prof011">
+                <nombre>Sistemas de Gestión Empresarial</nombre>
+                <horas>4</horas>
+            </asignatura>
+            <asignatura asig_id="DAM2_ING" ref_prof="prof008">
+                <nombre>Inglés profesional</nombre>
+                <horas>2</horas>
+            </asignatura>
+            <asignatura asig_id="DAM2_IPE2" ref_prof="prof005">
+                <nombre>Itinerario Personal para la Empleabilidad II</nombre>
+                <horas>3</horas>
+            </asignatura>
+            <asignatura asig_id="DAM2_PI" ref_prof="prof009">
+                <nombre>Proyecto Intermodular</nombre>
+                <horas>2</horas>
             </asignatura>
         </año>
     </ciclo>
@@ -322,64 +388,98 @@
             <horario>
                 <dia diaSemana="Lunes">
                     <hora ref_asig="ASIR1_PAR">15:30-17:20</hora>
+                    <hora ref_asig="ASIR1_LM">17:30-18:25</hora>
                 </dia>
                 <dia diaSemana="Martes">
                     <hora ref_asig="ASIR1_ISO">15:30-17:20</hora>
+                    <hora ref_asig="ASIR1_FOL">17:30-18:25</hora>
                 </dia>
                 <dia diaSemana="Miércoles">
                     <hora ref_asig="ASIR1_GBD">15:30-17:20</hora>
+                    <hora ref_asig="ASIR1_ING">17:30-18:25</hora>
                 </dia>
                 <dia diaSemana="Jueves">
-                    <hora ref_asig="ASIR1_ISO">17:30-19:20</hora>
+                    <hora ref_asig="ASIR1_ISO">15:30-17:20</hora>
+                    <hora ref_asig="ASIR1_LM">17:30-18:25</hora>
                 </dia>
                 <dia diaSemana="Viernes">
                     <hora ref_asig="ASIR1_PAR">15:30-17:20</hora>
                     <hora ref_asig="ASIR1_GBD">17:30-19:20</hora>
+                    <hora ref_asig="ASIR1_FOL">19:30-20:25</hora>
                 </dia>
             </horario>
             <asignatura asig_id="ASIR1_PAR" ref_prof="prof003">
-                <nombre>Planificación y Adm. de Redes</nombre>
+                <nombre>Planificación y administración de redes</nombre>
                 <horas>5</horas>
             </asignatura>
             <asignatura asig_id="ASIR1_ISO" ref_prof="prof006">
-                <nombre>Implantación de SO</nombre>
-                <horas>5</horas>
+                <nombre>Implantación de sistemas operativos</nombre>
+                <horas>6</horas>
             </asignatura>
             <asignatura asig_id="ASIR1_GBD" ref_prof="prof011">
-                <nombre>Gestión de Bases de Datos</nombre>
+                <nombre>Gestión de bases de datos</nombre>
                 <horas>4</horas>
+            </asignatura>
+            <asignatura asig_id="ASIR1_LM" ref_prof="prof002">
+                <nombre>Lenguajes de marcas y sistemas de gestión de información</nombre>
+                <horas>3</horas>
+            </asignatura>
+            <asignatura asig_id="ASIR1_FOL" ref_prof="prof005">
+                <nombre>Formación y orientación laboral</nombre>
+                <horas>3</horas>
+            </asignatura>
+            <asignatura asig_id="ASIR1_ING" ref_prof="prof008">
+                <nombre>Inglés</nombre>
+                <horas>2</horas>
             </asignatura>
         </año>
         <año>
             <horario>
                 <dia diaSemana="Lunes">
                     <hora ref_asig="ASIR2_ASO">15:30-17:20</hora>
+                    <hora ref_asig="ASIR2_IAW">17:30-18:25</hora>
                 </dia>
                 <dia diaSemana="Martes">
                     <hora ref_asig="ASIR2_SRI">15:30-17:20</hora>
+                    <hora ref_asig="ASIR2_EIE">17:30-18:25</hora>
                 </dia>
                 <dia diaSemana="Miércoles">
                     <hora ref_asig="ASIR2_SAD">15:30-17:20</hora>
+                    <hora ref_asig="ASIR2_PROY">17:30-18:25</hora>
                 </dia>
                 <dia diaSemana="Jueves">
-                    <hora ref_asig="ASIR2_ASO">17:30-19:20</hora>
+                    <hora ref_asig="ASIR2_ASO">15:30-17:20</hora>
+                    <hora ref_asig="ASIR2_IAW">17:30-18:25</hora>
                 </dia>
                 <dia diaSemana="Viernes">
                     <hora ref_asig="ASIR2_SRI">15:30-17:20</hora>
                     <hora ref_asig="ASIR2_SAD">17:30-19:20</hora>
+                    <hora ref_asig="ASIR2_EIE">19:30-20:25</hora>
                 </dia>
             </horario>
             <asignatura asig_id="ASIR2_ASO" ref_prof="prof006">
-                <nombre>Adm. de Sistemas Operativos</nombre>
-                <horas>4</horas>
+                <nombre>Administración de sistemas operativos</nombre>
+                <horas>6</horas>
             </asignatura>
             <asignatura asig_id="ASIR2_SRI" ref_prof="prof003">
-                <nombre>Servicios de Red e Internet</nombre>
-                <horas>4</horas>
+                <nombre>Servicios de red e internet</nombre>
+                <horas>5</horas>
             </asignatura>
             <asignatura asig_id="ASIR2_SAD" ref_prof="prof011">
-                <nombre>Seguridad y Alta Disponibilidad</nombre>
+                <nombre>Seguridad y alta disponibilidad</nombre>
                 <horas>4</horas>
+            </asignatura>
+            <asignatura asig_id="ASIR2_IAW" ref_prof="prof010">
+                <nombre>Implantación de aplicaciones web</nombre>
+                <horas>4</horas>
+            </asignatura>
+            <asignatura asig_id="ASIR2_EIE" ref_prof="prof005">
+                <nombre>Empresa e iniciativa emprendedora</nombre>
+                <horas>3</horas>
+            </asignatura>
+            <asignatura asig_id="ASIR2_PROY" ref_prof="prof006">
+                <nombre>Proyecto de administración de sistemas informáticos en red</nombre>
+                <horas>2</horas>
             </asignatura>
         </año>
     </ciclo>
